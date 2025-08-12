@@ -1,23 +1,12 @@
-import SiteHeader from "@/components/layout/SiteHeader";
-import SiteFooter from "@/components/layout/SiteFooter";
-import Hero from "@/sections/Hero";
-import Features from "@/sections/Features";
-import Pricing from "@/sections/Pricing";
-import CallToAction from "@/sections/CTA";
-import SEO from "@/components/seo/SEO";
+// Update this page (the content is just a fallback if you fail to update the page)
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex flex-col">
-      <SEO title="PulseBoard – Micro‑SaaS Starter Kit" description="Polished React + Tailwind + shadcn UI scaffolding to build micro‑SaaS fast." canonical="/" />
-      <SiteHeader />
-      <main className="flex-1">
-        <Hero />
-        <Features />
-        <Pricing />
-        <CallToAction />
-      </main>
-      <SiteFooter />
+    <div className="min-h-screen flex items-center justify-center bg-background">
+      <div className="text-center">
+        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
+        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
+      </div>
     </div>
   );
 };
