@@ -8,13 +8,13 @@ const SiteHeader = () => {
         <div className="mr-4 hidden md:flex">
           <Link to="/" className="mr-6 flex items-center space-x-2">
             <span className="hidden font-bold sm:inline-block">
-              Your App
+              CreativeForge
             </span>
           </Link>
         </div>
         <div className="flex flex-1 items-center justify-between space-x-2 md:justify-end">
           <Button variant="hero" asChild>
-            <Link to="/login">Get Started</Link>
+            <Link to="/dashboard">Dashboard</Link>
           </Button>
         </div>
       </div>

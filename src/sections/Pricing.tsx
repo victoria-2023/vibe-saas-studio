@@ -5,17 +5,32 @@ import { Check } from "lucide-react";
 const Pricing = () => {
   const plans = [
     {
-      name: "Starter",
-      price: "$0",
-      description: "Perfect for getting started",
-      features: ["5 Projects", "1GB Storage", "Community Support"],
+      name: "Creator",
+      price: "$12",
+      description: "Perfect for individual creators",
+      features: [
+        "1 Portfolio site",
+        "Up to 5 projects",
+        "Basic templates",
+        "2GB storage",
+        "Email support"
+      ],
       buttonVariant: "outline" as const,
     },
     {
-      name: "Pro",
-      price: "$29",
-      description: "For serious creators",
-      features: ["Unlimited Projects", "100GB Storage", "Priority Support", "Advanced Analytics"],
+      name: "Professional",
+      price: "$39",
+      description: "For serious creators and educators",
+      features: [
+        "Unlimited portfolios",
+        "Unlimited projects",
+        "Course creation tools",
+        "Premium templates",
+        "50GB storage",
+        "Custom domain",
+        "Analytics dashboard",
+        "Priority support"
+      ],
       buttonVariant: "default" as const,
     },
   ];
@@ -24,9 +39,9 @@ const Pricing = () => {
     <section className="py-20 bg-secondary/20">
       <div className="container mx-auto">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold mb-4">Simple, Transparent Pricing</h2>
+          <h2 className="text-3xl font-bold mb-4">Choose Your Creative Plan</h2>
           <p className="text-xl text-muted-foreground">
-            Choose the plan that's right for you
+            From portfolios to courses, we have the tools to grow your creative business
           </p>
         </div>
         <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
